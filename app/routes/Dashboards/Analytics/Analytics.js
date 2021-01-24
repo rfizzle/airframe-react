@@ -430,10 +430,10 @@ export class Analytics extends React.Component {
                                             value="81,525"
                                         />
                                     </div>
-                                    <Progress multi className={ classes['sessions-progress'] } style={{height: "5px"}}>
-                                        <Progress bar color="purple" value="25" style={{height: "5px"}} />
-                                        <Progress bar color="primary" value="30" style={{height: "5px"}} />
-                                        <Progress bar color="success" value="45" style={{height: "5px"}} />
+                                    <Progress multi className={ classes['sessions-progress'] }>
+                                        <Progress bar color="purple" value="25" />
+                                        <Progress bar color="primary" value="30" />
+                                        <Progress bar color="success" value="45" />
                                     </Progress>
                                 </CardBody>
                                 <CardFooter className={`${classes['sessions-info']} mt-auto`}>

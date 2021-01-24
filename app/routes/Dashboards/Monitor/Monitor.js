@@ -61,12 +61,12 @@ const Monitor = () => (
                             </div>
                             <div className="d-flex justify-content-between">
                                 <span className="d-flex align-items-center mr-2">Core 0</span>
-                                <Progress value="44" className="mt-2 w-50" style={{height: "5px"}} />
+                                <Progress value="44" className="mt-2 w-50" />
                                 <span className="ml-2 text-inverse">86%</span>
                             </div>
                             <div className="d-flex justify-content-between">
                                 <span className="d-flex align-items-center mr-2">Core 1</span>
-                                <Progress value="74" className="mt-2 w-50" style={{height: "5px"}} />
+                                <Progress value="74" className="mt-2 w-50" />
                                 <span className="ml-2 text-inverse">40%</span>
                             </div>
                         </div>

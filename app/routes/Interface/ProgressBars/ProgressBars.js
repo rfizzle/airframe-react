@@ -233,7 +233,7 @@ const ProgressBars = () => (
                                 Color progress styling. Use 
                                 <code> &lt;Progress value={'{'}50{'}'} style={'{'}{'{'}height: "5px"{'}'}{'}'}/&gt;</code>
                             </p>
-                            <Progress value={2 * 5} style={{height: "5px"}} />
+                            <Progress value={2 * 5} />
                         </CardBody>
                     </Card>
                 </Col>
@@ -287,7 +287,7 @@ const ProgressBars = () => (
                                 Color progress styling. Use 
                                 <code> &lt;Progress value={'{'}70{'}'} style={'{'}{'{'}height: "4px"{'}'}{'}'}/&gt;</code>
                             </p>
-                            <Progress value={70} style={{height: "4px"}} />
+                            <Progress value={70} />
                         </CardBody>
                     </Card>
                     <Card className="mb-3">

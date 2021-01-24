@@ -15,7 +15,7 @@ const MetricVsTarget = (props) => (
         <h2 className="pt-4 pb-2">
             { props.value }
         </h2>
-        <Progress value={ `${ props.progressbarValue }` } color={ `${ props.progressbarColor }` } className="mb-2" style={{height: "5px"}} />
+        <Progress value={ `${ props.progressbarValue }` } color={ `${ props.progressbarColor }` } className="mb-2" />
         <div className="mb-3">
             Target: { props.targetValue }
         </div>

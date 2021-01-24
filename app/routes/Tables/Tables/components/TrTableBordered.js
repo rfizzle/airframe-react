@@ -28,7 +28,7 @@ const TrTableBordered = () => (
                         </span>
                     </td>
                     <td className="align-middle">
-                        <Progress value={ completion[index%4] } style={{height: "5px"}} />
+                        <Progress value={ completion[index%4] } />
                     </td>
                     <td className="align-middle">
                         { faker.date.weekday() }, 12 { faker.date.month() }, 2018

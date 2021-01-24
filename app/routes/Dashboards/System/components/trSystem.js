@@ -77,7 +77,7 @@ const TrSystem = (props) => (
                     v. { randomArray(versions) }
                 </Badge>
             </span>
-            <Progress value={ randomArray(percents) } style={{height: "4px"}} className="mb-2" />
+            <Progress value={ randomArray(percents) } className="mb-2" />
             <span className="d-flex">
                 <span className="text-inverse">
                     { randomArray(percents) }%

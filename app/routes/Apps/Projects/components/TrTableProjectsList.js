@@ -66,7 +66,7 @@ const TrTableProjectsList = () => (
                         { status[index%4] }
                     </td>
                     <td className="align-middle">
-                        <Progress value={ tasksCompleted[index%4] } style={{height: "5px"}} className="mb-2" />
+                        <Progress value={ tasksCompleted[index%4] } className="mb-2" />
                         <div>
                             Tasks Completed: 
                             <span className="text-inverse">

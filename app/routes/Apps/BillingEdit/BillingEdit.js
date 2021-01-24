@@ -54,7 +54,7 @@ const BillingEdit = () => (
                                             Premium
                                         </span> - You use <strong>37%</strong> of the available space.
                                     </div>
-                                    <Progress multi style={{height: "5px"}} className="mb-3">
+                                    <Progress multi className="mb-3">
                                         <Progress bar value="15" />
                                         <Progress bar color="purple" value="30" />
                                         <Progress bar color="yellow" value="25" />

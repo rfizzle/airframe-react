@@ -37,7 +37,7 @@ const TrTableMonitor = () => (
                         Mirror <Badge color="secondary" pill className="ml-2">/mtn/volume1</Badge>
                     </td>
                     <td className="align-middle">
-                        <Progress value={ tasksCompleted[index%4] } style={{height: "5px"}} />
+                        <Progress value={ tasksCompleted[index%4] } />
                     </td>
                     <td>
                         <span className="text-inverse">7.3.5 TiB</span> / 9.3.1 TiB

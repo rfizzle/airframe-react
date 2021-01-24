@@ -92,22 +92,22 @@ const Reports = () => (
                             </span>
                             <div className="d-flex justify-content-between mb-2">
                                 <span className="d-flex align-items-center mr-2">Core 0</span>
-                                    <Progress value="25" className="mt-2 w-50 progress" style={{height: "5px"}} />
+                                    <Progress value="25" className="mt-2 w-50 progress" />
                                 <span className="ml-2 text-inverse">86º</span>
                             </div>
                             <div className="d-flex justify-content-between mb-2">
                                 <span className="d-flex align-items-center mr-2">Core 1</span>
-                                    <Progress value="59" className="mt-2 w-50 progress" style={{height: "5px"}} />
+                                    <Progress value="59" className="mt-2 w-50 progress" />
                                 <span className="ml-2 text-inverse">40º</span>
                             </div>
                             <div className="d-flex justify-content-between mb-2">
                                 <span className="d-flex align-items-center mr-2">Core 2</span>
-                                    <Progress value="25" className="mt-2 w-50 progress" style={{height: "5px"}} />
+                                    <Progress value="25" className="mt-2 w-50 progress" />
                                 <span className="ml-2 text-inverse">86º</span>
                             </div>
                             <div className="d-flex justify-content-between mb-2">
                                 <span className="d-flex align-items-center mr-2">Core 3</span>
-                                    <Progress value="59" className="mt-2 w-50 progress" style={{height: "5px"}} />
+                                    <Progress value="59" className="mt-2 w-50 progress" />
                                 <span className="ml-2 text-inverse">40º</span>
                             </div>
                         </CardBody>
@@ -132,7 +132,7 @@ const Reports = () => (
                             </span>
                             <div className="d-flex justify-content-between mb-2">
                                 <span className="d-flex align-items-center mr-2">Core</span>
-                                    <Progress value="85" className="mt-2 w-50" style={{height: "5px"}} />
+                                    <Progress value="85" className="mt-2 w-50" />
                                 <span className="ml-2 text-inverse">86º</span>
                             </div>
                         </CardBody>
@@ -162,7 +162,7 @@ const Reports = () => (
                                 </span>
                                 <div className="d-flex justify-content-between">
                                     <span className="d-flex align-items-center mr-2">SSD 0</span>
-                                    <Progress value="25" className="mt-2 w-50 progress" style={{height: "5px"}} />
+                                    <Progress value="25" className="mt-2 w-50 progress" />
                                     <span className="ml-2 text-inverse">31º</span>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@ const Reports = () => (
                                 </span>
                                 <div className="d-flex justify-content-between">
                                     <span className="d-flex align-items-center mr-2">HDD 1</span>
-                                    <Progress value="67" className="mt-2 w-50 progress" style={{height: "5px"}} />
+                                    <Progress value="67" className="mt-2 w-50 progress" />
                                     <span className="ml-2 text-inverse">81º</span>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ const Reports = () => (
                                 </span>
                                 <div className="d-flex justify-content-between">
                                     <span className="d-flex align-items-center mr-2">SSD 3</span>
-                                    <Progress value="35" className="mt-2 w-50 progress" style={{height: "5px"}} />
+                                    <Progress value="35" className="mt-2 w-50 progress" />
                                     <span className="ml-2 text-inverse">21º</span>
                                 </div>
                             </div>

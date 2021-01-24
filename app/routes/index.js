@@ -108,6 +108,7 @@ import { DefaultSidebar } from './../layout/components/DefaultSidebar';
 
 import { SidebarANavbar } from './../layout/components/SidebarANavbar';
 import { SidebarASidebar } from './../layout/components/SidebarASidebar';
+import {Security} from "./Dashboards/Security/Security";
 
 //------ Route Definitions --------
 // eslint-disable-next-line no-unused-vars
@@ -123,9 +124,10 @@ export const RoutedContent = () => {
             <Route path="/dashboards/financial" exact component={Financial} />
             <Route path="/dashboards/stock" exact component={Stock} />
             <Route path="/dashboards/reports" exact component={Reports} />
+            <Route path="/dashboards/security" exact component={Security} />
 
             <Route path='/widgets' exact component={Widgets} />
-            
+
             { /*    Cards Routes     */ }
             <Route path='/cards/cards' exact component={Cards} />
             <Route path='/cards/cardsheaders' exact component={CardsHeaders} />

@@ -60,7 +60,7 @@ const ProjectsCardGrid = () => (
                         { faker.date.weekday() }, 12 { faker.date.month() }, 2018
                     </div>
                     <div className="mb-3">
-                        <Progress value={ randomArray(taskCompleted) } style={{height: "5px"}} className="mb-2" />
+                        <Progress value={ randomArray(taskCompleted) } className="mb-2" />
                         <div>
                             Tasks Completed: 
                             <span className="text-inverse">
